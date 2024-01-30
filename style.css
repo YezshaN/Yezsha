@@ -1,0 +1,58 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url("bckg1.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;         
+    }
+    
+    .header {
+      background-color: #c595ff;
+      width: 45%;
+      max-width: 450px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px auto;
+      margin-top: 5px;            
+        }
+
+    .card {
+      width: 650px;
+      background-image: url("bckg2.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 650px;
+      margin: 10px;
+      border: 5px solid #c595ff;
+      border-radius: 3%;
+      text-align: center;
+      padding: 10px;
+    }
+
+    img {
+      width: 152px;
+      height: 152px;
+      margin-top: 5px;
+      border-radius: 50%;
+    }
+    
+    .song img {
+      width: 22%;
+      height: 22%;
+      border-radius: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      display: block;
+      margin: auto;
+    }
+    
+    .h3 {
+      margin-top: 1px;  
+    }
